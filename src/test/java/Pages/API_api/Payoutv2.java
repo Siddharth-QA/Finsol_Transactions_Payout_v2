@@ -629,7 +629,7 @@ beneficiary.clear();
         Random random = new Random();
         int randNum = random.nextInt(10000);
         JSONObject requestParams = new JSONObject();
-        requestParams.put("amount", "10");
+        requestParams.put("amount", "10.01");
         requestParams.put("order_id", "ORDER_87654" + randNum);
         requestParams.put("pay_mode", "IM");
         requestParams.put("sub_pay_mode", "IM");
